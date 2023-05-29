@@ -1,0 +1,12 @@
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\bin\Debug\net7.0\Pay.OvetimePolicies.Domain.deps.json
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\bin\Debug\net7.0\Pay.OvetimePolicies.Domain.dll
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\bin\Debug\net7.0\Pay.OvetimePolicies.Domain.pdb
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.csproj.AssemblyReference.cache
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.AssemblyInfoInputs.cache
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.AssemblyInfo.cs
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.csproj.CoreCompileInputs.cache
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.dll
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\refint\Pay.OvetimePolicies.Domain.dll
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\Pay.OvetimePolicies.Domain.pdb
+C:\Users\a.moradi\source\repos\Pay\Pay.Domain\obj\Debug\net7.0\ref\Pay.OvetimePolicies.Domain.dll

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{3F64C0A1-DA8A-46B6-AB96-0D7222DF8529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C9F82EEF-F492-45E9-890A-0517BB72805C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\TaskCandidateBackend.pdf = ..\..\..\Downloads\TaskCandidateBackend.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{976BF3E6-9F1D-435C-BAF6-7AC706FE5698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CE6E1CB7-2B93-413E-8754-523AA569D345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraStructures", "InfraStructures", "{1D9A0933-5965-4909-8806-B4025B78C4F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8A5FC2DF-5F84-480F-A827-F668BFF29CDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay.OvetimePolicies.Api", "Pay.Api\Pay.OvetimePolicies.Api.csproj", "{D453C281-D76E-41B6-A2A5-2BE0119CEB77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay.OvetimePolicies.InfraStructure", "Pay.InfraStructure\Pay.OvetimePolicies.InfraStructure.csproj", "{A49C693E-36C4-479B-B5C0-46E2B073D69C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay.OvetimePolicies.Persistence", "Pay.Persistence\Pay.OvetimePolicies.Persistence.csproj", "{C0F3D6F8-BCFF-41E0-A395-ABBE24FCD8D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay.OvetimePolicies.Application", "Pay.Application\Pay.OvetimePolicies.Application.csproj", "{8C3EC55B-033C-4D56-8FCC-CFA3CA227F93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay.OvetimePolicies.Domain", "Pay.Domain\Pay.OvetimePolicies.Domain.csproj", "{FDE479B1-E736-4046-9E07-B4B17F963169}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay.OvetimePolicies.Api.Tests", "Pay.Test\Pay.OvetimePolicies.Api.Tests.csproj", "{0C4CF303-E385-46FA-B805-6132B2C37C6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D453C281-D76E-41B6-A2A5-2BE0119CEB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D453C281-D76E-41B6-A2A5-2BE0119CEB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D453C281-D76E-41B6-A2A5-2BE0119CEB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D453C281-D76E-41B6-A2A5-2BE0119CEB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49C693E-36C4-479B-B5C0-46E2B073D69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49C693E-36C4-479B-B5C0-46E2B073D69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49C693E-36C4-479B-B5C0-46E2B073D69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49C693E-36C4-479B-B5C0-46E2B073D69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F3D6F8-BCFF-41E0-A395-ABBE24FCD8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F3D6F8-BCFF-41E0-A395-ABBE24FCD8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F3D6F8-BCFF-41E0-A395-ABBE24FCD8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F3D6F8-BCFF-41E0-A395-ABBE24FCD8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3EC55B-033C-4D56-8FCC-CFA3CA227F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3EC55B-033C-4D56-8FCC-CFA3CA227F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3EC55B-033C-4D56-8FCC-CFA3CA227F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3EC55B-033C-4D56-8FCC-CFA3CA227F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE479B1-E736-4046-9E07-B4B17F963169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE479B1-E736-4046-9E07-B4B17F963169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE479B1-E736-4046-9E07-B4B17F963169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE479B1-E736-4046-9E07-B4B17F963169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4CF303-E385-46FA-B805-6132B2C37C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4CF303-E385-46FA-B805-6132B2C37C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4CF303-E385-46FA-B805-6132B2C37C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4CF303-E385-46FA-B805-6132B2C37C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE6E1CB7-2B93-413E-8754-523AA569D345} = {3F64C0A1-DA8A-46B6-AB96-0D7222DF8529}
+		{1D9A0933-5965-4909-8806-B4025B78C4F4} = {3F64C0A1-DA8A-46B6-AB96-0D7222DF8529}
+		{8A5FC2DF-5F84-480F-A827-F668BFF29CDA} = {3F64C0A1-DA8A-46B6-AB96-0D7222DF8529}
+		{D453C281-D76E-41B6-A2A5-2BE0119CEB77} = {8A5FC2DF-5F84-480F-A827-F668BFF29CDA}
+		{A49C693E-36C4-479B-B5C0-46E2B073D69C} = {1D9A0933-5965-4909-8806-B4025B78C4F4}
+		{C0F3D6F8-BCFF-41E0-A395-ABBE24FCD8D3} = {1D9A0933-5965-4909-8806-B4025B78C4F4}
+		{8C3EC55B-033C-4D56-8FCC-CFA3CA227F93} = {CE6E1CB7-2B93-413E-8754-523AA569D345}
+		{FDE479B1-E736-4046-9E07-B4B17F963169} = {CE6E1CB7-2B93-413E-8754-523AA569D345}
+		{0C4CF303-E385-46FA-B805-6132B2C37C6D} = {976BF3E6-9F1D-435C-BAF6-7AC706FE5698}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07CC4809-1BCD-4C6E-B611-E91426077501}
+	EndGlobalSection
+EndGlobal

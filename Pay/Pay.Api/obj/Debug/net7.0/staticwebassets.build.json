@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kECS9kaaHs4AB3YSeoaIdk3U+3l1o3rzy/ySjq9SEag=",
+  "Source": "Pay.OvetimePolicies.Api",
+  "BasePath": "_content/Pay.OvetimePolicies.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

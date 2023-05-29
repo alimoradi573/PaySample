@@ -1,0 +1,468 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\My projects\\PaySample\\Pay\\Pay.Test\\Pay.OvetimePolicies.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "F:\\My projects\\PaySample\\Pay\\Pay.Api\\Pay.OvetimePolicies.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My projects\\PaySample\\Pay\\Pay.Api\\Pay.OvetimePolicies.Api.csproj",
+        "projectName": "Pay.OvetimePolicies.Api",
+        "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Api\\Pay.OvetimePolicies.Api.csproj",
+        "packagesPath": "C:\\Users\\a.moradi\\.nuget\\packages\\",
+        "outputPath": "F:\\My projects\\PaySample\\Pay\\Pay.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.moradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj"
+              },
+              "F:\\My projects\\PaySample\\Pay\\Pay.InfraStructure\\Pay.OvetimePolicies.InfraStructure.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.InfraStructure\\Pay.OvetimePolicies.InfraStructure.csproj"
+              },
+              "F:\\My projects\\PaySample\\Pay\\Pay.Persistence\\Pay.OvetimePolicies.Persistence.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Persistence\\Pay.OvetimePolicies.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj",
+        "projectName": "Pay.OvetimePolicies.Application",
+        "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj",
+        "packagesPath": "C:\\Users\\a.moradi\\.nuget\\packages\\",
+        "outputPath": "F:\\My projects\\PaySample\\Pay\\Pay.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.moradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj",
+        "projectName": "Pay.OvetimePolicies.Domain",
+        "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj",
+        "packagesPath": "C:\\Users\\a.moradi\\.nuget\\packages\\",
+        "outputPath": "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.moradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My projects\\PaySample\\Pay\\Pay.InfraStructure\\Pay.OvetimePolicies.InfraStructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My projects\\PaySample\\Pay\\Pay.InfraStructure\\Pay.OvetimePolicies.InfraStructure.csproj",
+        "projectName": "Pay.OvetimePolicies.InfraStructure",
+        "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.InfraStructure\\Pay.OvetimePolicies.InfraStructure.csproj",
+        "packagesPath": "C:\\Users\\a.moradi\\.nuget\\packages\\",
+        "outputPath": "F:\\My projects\\PaySample\\Pay\\Pay.InfraStructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.moradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My projects\\PaySample\\Pay\\Pay.Persistence\\Pay.OvetimePolicies.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My projects\\PaySample\\Pay\\Pay.Persistence\\Pay.OvetimePolicies.Persistence.csproj",
+        "projectName": "Pay.OvetimePolicies.Persistence",
+        "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Persistence\\Pay.OvetimePolicies.Persistence.csproj",
+        "packagesPath": "C:\\Users\\a.moradi\\.nuget\\packages\\",
+        "outputPath": "F:\\My projects\\PaySample\\Pay\\Pay.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.moradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Application\\Pay.OvetimePolicies.Application.csproj"
+              },
+              "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Domain\\Pay.OvetimePolicies.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My projects\\PaySample\\Pay\\Pay.Test\\Pay.OvetimePolicies.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My projects\\PaySample\\Pay\\Pay.Test\\Pay.OvetimePolicies.Api.Tests.csproj",
+        "projectName": "Pay.OvetimePolicies.Api.Tests",
+        "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Test\\Pay.OvetimePolicies.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\a.moradi\\.nuget\\packages\\",
+        "outputPath": "F:\\My projects\\PaySample\\Pay\\Pay.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a.moradi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\My projects\\PaySample\\Pay\\Pay.Api\\Pay.OvetimePolicies.Api.csproj": {
+                "projectPath": "F:\\My projects\\PaySample\\Pay\\Pay.Api\\Pay.OvetimePolicies.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

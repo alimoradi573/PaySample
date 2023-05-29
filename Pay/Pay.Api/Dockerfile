@@ -6,16 +6,16 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["Pay.Api/Pay.Api.csproj", "Pay.Api/"]
-RUN dotnet restore "Pay.Api/Pay.Api.csproj"
+COPY ["Pay.Api/Pay.OvetimePolicies.Api.csproj", "Pay.Api/"]
+RUN dotnet restore "Pay.Api/Pay.OvetimePolicies.Api.csproj"
 COPY . .
 WORKDIR "/src/Pay.Api"
-RUN dotnet build "Pay.Api.csproj" -c Release -o /app/build
+RUN dotnet build "Pay.OvetimePolicies.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Pay.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Pay.OvetimePolicies.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Pay.Api.dll"]
+ENTRYPOINT ["dotnet", "Pay.OvetimePolicies.Api.dll"]

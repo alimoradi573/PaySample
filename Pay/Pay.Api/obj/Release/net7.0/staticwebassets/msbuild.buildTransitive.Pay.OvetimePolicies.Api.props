@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pay.OvetimePolicies.Api.props" />
+</Project>

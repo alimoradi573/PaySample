@@ -1,0 +1,12 @@
+F:\My projects\PaySample\Pay\Pay.InfraStructure\bin\Release\net7.0\Pay.OvetimePolicies.InfraStructure.deps.json
+F:\My projects\PaySample\Pay\Pay.InfraStructure\bin\Release\net7.0\Pay.OvetimePolicies.InfraStructure.dll
+F:\My projects\PaySample\Pay\Pay.InfraStructure\bin\Release\net7.0\Pay.OvetimePolicies.InfraStructure.pdb
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.csproj.AssemblyReference.cache
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.AssemblyInfoInputs.cache
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.AssemblyInfo.cs
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.csproj.CoreCompileInputs.cache
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.dll
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\refint\Pay.OvetimePolicies.InfraStructure.dll
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\Pay.OvetimePolicies.InfraStructure.pdb
+F:\My projects\PaySample\Pay\Pay.InfraStructure\obj\Release\net7.0\ref\Pay.OvetimePolicies.InfraStructure.dll

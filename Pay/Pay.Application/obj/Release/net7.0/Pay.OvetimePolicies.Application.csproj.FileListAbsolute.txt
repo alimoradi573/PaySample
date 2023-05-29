@@ -1,0 +1,15 @@
+F:\My projects\PaySample\Pay\Pay.Application\bin\Release\net7.0\Pay.OvetimePolicies.Application.deps.json
+F:\My projects\PaySample\Pay\Pay.Application\bin\Release\net7.0\Pay.OvetimePolicies.Application.dll
+F:\My projects\PaySample\Pay\Pay.Application\bin\Release\net7.0\Pay.OvetimePolicies.Application.pdb
+F:\My projects\PaySample\Pay\Pay.Application\bin\Release\net7.0\Pay.OvetimePolicies.Domain.dll
+F:\My projects\PaySample\Pay\Pay.Application\bin\Release\net7.0\Pay.OvetimePolicies.Domain.pdb
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.csproj.AssemblyReference.cache
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.AssemblyInfoInputs.cache
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.AssemblyInfo.cs
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.csproj.CoreCompileInputs.cache
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.csproj.CopyComplete
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.dll
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\refint\Pay.OvetimePolicies.Application.dll
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\Pay.OvetimePolicies.Application.pdb
+F:\My projects\PaySample\Pay\Pay.Application\obj\Release\net7.0\ref\Pay.OvetimePolicies.Application.dll

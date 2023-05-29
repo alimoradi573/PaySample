@@ -1,0 +1,12 @@
+F:\My projects\PaySample\Pay\Pay.Domain\bin\Release\net7.0\Pay.OvetimePolicies.Domain.deps.json
+F:\My projects\PaySample\Pay\Pay.Domain\bin\Release\net7.0\Pay.OvetimePolicies.Domain.dll
+F:\My projects\PaySample\Pay\Pay.Domain\bin\Release\net7.0\Pay.OvetimePolicies.Domain.pdb
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.csproj.AssemblyReference.cache
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.AssemblyInfoInputs.cache
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.AssemblyInfo.cs
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.csproj.CoreCompileInputs.cache
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.dll
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\refint\Pay.OvetimePolicies.Domain.dll
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\Pay.OvetimePolicies.Domain.pdb
+F:\My projects\PaySample\Pay\Pay.Domain\obj\Release\net7.0\ref\Pay.OvetimePolicies.Domain.dll

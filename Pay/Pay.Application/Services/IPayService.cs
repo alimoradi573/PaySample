@@ -7,8 +7,8 @@ namespace Pay.OvetimePolicies.Application.Services
         Task<IEnumerable<PayDTO>> GetRangeAsync(PayFilterDTO filter);
         Task<PayDTO> GetPayAsync(int id);
         Task<int> CreatePayAsync(PayDTO pay);
-        Task UpdatePayAsync(PayDTO pay);
-        Task DeletePayAsync(int id);
+        Task<PayDTO> UpdatePayAsync(PayDTO pay);
+        Task<int> DeletePayAsync(int id);
     }
 
 

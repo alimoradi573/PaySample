@@ -26,15 +26,15 @@ namespace Pay.OvetimePolicies.Application.Services
             _payDbContext.Pays.Add(_mapper.Map<PayEntity>(payDTO));
             return await _payDbContext.SaveChangesAsync();
         }
-        public async Task DeletePayAsync(int id)
+        public async Task<int> DeletePayAsync(int id)
         {
             var result = await _payDbContext.Pays.FindAsync(id);
             if (result != null)
             {
                 _payDbContext.Pays.Remove(result);
-                await _payDbContext.SaveChangesAsync();
+              return   await _payDbContext.SaveChangesAsync();
             }
-            await Task.CompletedTask;
+            return await _payDbContext.SaveChangesAsync();
         }
         //public async Task<IEnumerable<PayDTO>> GetRangeAsync(PayFilterDTO filter)
         //{
@@ -90,7 +90,7 @@ namespace Pay.OvetimePolicies.Application.Services
 
 
 
-        public async Task UpdatePayAsync(PayDTO item)
+        public async Task<PayDTO> UpdatePayAsync(PayDTO item)
         {
             var result = _payDbContext.Pays.Find(item.Id);
             if (result != null)
@@ -99,7 +99,8 @@ namespace Pay.OvetimePolicies.Application.Services
                 _payDbContext.Pays.Update(result);
                 _payDbContext.SaveChanges();
             }
-            await Task.CompletedTask;
+            return _mapper.Map<PayDTO>(result);
+            //await Task.CompletedTask;
         }
 
         

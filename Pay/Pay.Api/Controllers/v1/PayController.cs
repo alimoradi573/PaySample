@@ -43,15 +43,15 @@ namespace Pay.OvetimePolicies.Api.Controllers.v1
 
         [HttpPut]
         [Route("[action]")]
-        public virtual async Task Update(PayDTO payDTO)
+        public virtual async Task<PayDTO> Update(PayDTO payDTO)
         {
-            await _payService.UpdatePayAsync(payDTO);
+            return   await _payService.UpdatePayAsync(payDTO);
         }
         [HttpDelete]
         [Route("[action]")]
-        public virtual async Task Delete(int id)
+        public virtual async Task<int> Delete(int id)
         {
-             await _payService.DeletePayAsync(id);
+            return await _payService.DeletePayAsync(id);
         }
         [HttpGet]
         [Route("[action]")]
